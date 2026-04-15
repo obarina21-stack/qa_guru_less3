@@ -6,7 +6,7 @@ public class JUnitExamplesTest {
 
     @BeforeAll
     static void startUp() {
-        System.out.println("test startup");
+        System.out.println("test startup!");
     }
 
     @AfterAll
