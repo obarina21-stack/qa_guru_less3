@@ -17,7 +17,7 @@ public class TextBoxTests extends TestBase{
     @Test
     void successfulFillFormTest() {
         open("/text-box");
-        $("[id=userName]").setValue("Ivan Ivanov");
+        $("[id=userName]").setValue("van Ivanov");
         $("[id=userEmail]").setValue("ivanov@mail.com");
         $("[id=currentAddress]").setValue("first address 1");
         $("[id=permanentAddress]").setValue("second address 2");
